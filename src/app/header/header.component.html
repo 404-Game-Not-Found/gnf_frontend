@@ -1,0 +1,15 @@
+<nav class="app-header">
+    <li class="logoText">
+        Game Not Found
+    </li>
+    <ul>
+        <div></div>
+        <button mat-button [matMenuTriggerFor]="belowMenu">Menu</button>
+        
+        <div class="drop-down"><mat-menu #belowMenu="matMenu" yPosition="below">
+            <button mat-menu-item>News</button>
+            <button mat-menu-item>Projects</button>
+            <button mat-menu-item>About us</button>
+        </mat-menu></div>
+    </ul>
+</nav>
